@@ -113,6 +113,8 @@ class BlockscoutClient:
         EthereumNetwork.SHAPE: "https://shapescan.xyz/api/v2",
         EthereumNetwork.SHAPE_SEPOLIA_TESTNET: "https://sepolia.shapescan.xyz/api/v2/",
         EthereumNetwork.STORY_AENEID_TESTNET: "https://aeneid.storyscan.io/api/v2/",
+        EthereumNetwork.GRAVITY_ALPHA_MAINNET: "https://explorer-gravity-mainnet-0.t.conduit.xyz/api/v2/",
+        EthereumNetwork.GRAVITY_ALPHA_TESTNET_SEPOLIA: "https://explorer-gravity-alpha-testnet-sepolia-3ggx92odhy.t.conduit.xyz/api/v2/",
     }
 
     def __init__(
